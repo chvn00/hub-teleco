@@ -30,8 +30,8 @@ APPS = [
         "descripcion": "Control de funciones administrativas, cumplimiento de actividades y carga no lectiva por docente.",
         "icono": "bi-clipboard2-check",
         "color": "#6A1B9A",
-        "url": os.environ.get("URL_ACTIVIDADES_DOCENTES", "#"),
-        "estado": "pronto",
+        "url": os.environ.get("URL_ACTIVIDADES_DOCENTES", "https://seg-intersemestral.up.railway.app/"),
+        "estado": "activo",
         "tags": ["Docentes", "Actividades", "Gestión"],
     },
     {
