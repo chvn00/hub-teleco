@@ -20,8 +20,8 @@ APPS = [
         "descripcion": "Registro y seguimiento del desempeño académico, alertas tempranas y gestión de casos por docente.",
         "icono": "bi-person-lines-fill",
         "color": "#00695C",
-        "url": os.environ.get("URL_SEGUIMIENTO", "#"),
-        "estado": "pronto",
+        "url": os.environ.get("URL_SEGUIMIENTO", "https://ruta-academica-teleco.up.railway.app/"),
+        "estado": "activo",
         "tags": ["Estudiantes", "Seguimiento", "Alertas"],
     },
     {
